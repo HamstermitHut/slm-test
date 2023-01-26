@@ -6,6 +6,12 @@
 
 Die Rest Schnittstelle gibt fuer die Zahl in Path, das Quadrat als Zahl zurueck.
 
+
+Anwendungsbeispiel:
+```shell
+# curl http://localhost:8080/api/square/5 
+->25.0
+```
 Ich habe ein neues Spring Web Projekt erstellt und dann ein github repo erstellt und 
 mittels `git remote add origin git@github.com:HamstermitHut/slm-test.git` ein remote meinem Repo hinzugefuegt und einen intialien commit gepusht.
 Danach hab ich ein Action maven_develop.yml hinzugefuegt fuer “Continuous Integration and Maven” und einen maven_master.yml fuer “Continuous Delivery”.
